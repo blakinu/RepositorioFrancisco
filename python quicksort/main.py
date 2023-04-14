@@ -9,7 +9,7 @@ def main():
     print(array)
     array = libraries.quicksort(array)
     print(array)
-
+    array.sort()
     if libraries.check_if_array_is_sorted(array):
         return True
     else:
